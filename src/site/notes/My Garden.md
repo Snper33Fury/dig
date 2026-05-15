@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/my-garden/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
+## SonidoPWM
+
+
 Es una técnica digital que genera sonido al variar el ancho de pulsos de una onda cuadrada creando "sonidos digitales" o timbres únicos, especialmente usados en sintetizadores.
 El oído humano escucha aproximadamente entre 20 Hz y 20.000 Hz, así que si pones al PWM en ese rango, el zumbador sonará con esa nota
 ## Investigación
@@ -69,13 +72,11 @@ Un Protoboard funciona mediante conexiones internas metálicas que interconectan
 Las dos zonas principales son las barras de alimentación y la zona de trabajo central.
 Los componentes se insertan en los orificios quedando pines conectados a los puntos metálicos internos, lo que permite crear circuitos de forma temporal.
 
-![Pasted image 20260515124545.png](/img/user/Pasted%20image%2020260515124545.png)
-
 Manejo basico:
 Insertar componentes en los orificios entendiendo que cada fila de cinco agujeros está conectada internamente.
 Para conectar la alimentación utiliza las líneas laterales y asegúrate que los componentes estén conectados en la misma columna para crear un circuito o que las columnas están conectadas entre sí por cables.
 
-![Pasted image 20260515124629.png](/img/user/Pasted%20image%2020260515124629.png)
+![[Pasted image 20260515124629.png\|Pasted image 20260515124629.png]]
 
 Conexiones internas: Los agujeros dentro de cada grupo de cinco (en la sección central) están conectados en una línea vertical.
 
@@ -295,8 +296,6 @@ Mediante el siguiente código éramos capaces de reproducir sonidos agudos, puro
   
 A este sistema le integramos un sensor TOF,con el objetivo de que detectase el movimiento reproducido a partir del sonido como salida.
 
-![Pasted image 20260515125216.png](/img/user/Pasted%20image%2020260515125216.png)
-
 ## MicroPython
 ¿Qué es un Firmware?
 Es un tipo de software que está integrado en la memoria de un dispositivo de hardware para controlar y hacer funcionar sus circuitos electrónicos 
@@ -305,7 +304,7 @@ Es un tipo de software que está integrado en la memoria de un dispositivo de ha
 MicroPython es un firmware hecho a partir de una versión del lenguaje Python hecha para ejecutarse en microcontroladores y otros sistemas con recursos limitados
 
 ## ESP32
-**
+
 
 ESP 32 S3 Devkit C-1
 
